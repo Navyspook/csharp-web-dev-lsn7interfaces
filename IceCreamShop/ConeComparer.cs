@@ -8,14 +8,14 @@ namespace IceCreamShop
     {
         public int Compare(Cone x, Cone y)
         {
-            //string xToString = x.Cost.ToString("F"); //F not working, but works
-            //string yToString = y.Cost.ToString("F"); //F not working, but works
-            int xInt = (int)(x.Cost * 100);
-            int yInt = (int)(y.Cost * 100);
-            return xInt - yInt;
+            //string xToString = x.Cost.ToString(); //F not working, but works
+            //string yToString = y.Cost.ToString(); //F not working, but works
+            int xint = (int)(x.Cost * 100);
+            int yint = (int)(y.Cost * 100);
+            return xint - yint;
 
 
-           // return string.Compare(x.Cost, y.Cost);  //xToString, yToString
+            //return string.Compare(xToString, yToString);  //
         }
     }
 }
